@@ -1,0 +1,33 @@
+body {
+    background-color: #0b8017;
+    color: white;
+    font-family: 'Roboto Slab';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+
+button {
+    background-color: #c97855;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 70%;
+}
+
+img {
+    max-width: 60%;
+}
